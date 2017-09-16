@@ -37,7 +37,7 @@ class xor(object):
         self.yHat = self.forward(X)
         J = 0.5*sum((y - self.yHat)**2)
         #print J
-        return J
+        return J 
 
     def costFunctionPrime(self, X, y):
 
