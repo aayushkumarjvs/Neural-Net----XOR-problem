@@ -64,4 +64,4 @@ the bias terms and product of summation and weights . .a2 = self.sigmoid(self.z2
    
   
   
- 9 . 
+ 
