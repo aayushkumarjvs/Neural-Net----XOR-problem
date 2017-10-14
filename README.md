@@ -61,6 +61,8 @@ the bias terms and product of summation and weights . .a2 = self.sigmoid(self.z2
    
    [[0.03388257],[0.97928562],[0.97928748],[0.00722927]] .
    
+   #REFERANCES :-
+   http://www.emergentmind.com/neural-network
    
   
   
