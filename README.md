@@ -12,14 +12,14 @@ The hidden layer contains three nodes . The output layer  has one neuron .
 # VARIABLES USED :-
 inputLayerSize = INPUT_NODES , outputLayerSize = OUTPUT_NODES , hiddenLayerSize = HIDDEN_NODES , W1 weigth towrds first neuron 
 , W2 weigth towards second neuron  , z2 activty of the scond layer  , a2 activation of the second layer  , z3 activity of the third layer
-, yHat activation of the final layer , delta3 is the backpropagating error for the final layer ,  delta2 is the backpropagating error
+, yHat activation of the final layer , dlta3 is the backpropagating error for the final layer ,  delta2 is the backpropagating error
 that is considerd after the second layer and  J cost function .
 
 # STEP'S :-
 
 1 . Initializing the hyperparameters , that is the INPUT_NODES , OUTPUT_NODES and finally the HIDDEN_NODES . As well as initializing
 the MAX_ITER values , to maximum allowable number of iterations that an algorithm can perform . ALPH is considering the learning rates .
-
+And
 
 2 . Randomly initializing the weights,between the layers of the neural network .
       .W1 = np.random.random((self.inputLayerSize, self.hiddenLayerSize))  // np. is to make an input of the 
